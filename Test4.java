@@ -1,4 +1,4 @@
-package Test;
+
 
 import java.util.Scanner;
 
@@ -30,5 +30,6 @@ public class Test4 {
 			}
 			System.out.println(arr[i]+ ":"+count);
 		}
+		sc.close();
 	}
 }

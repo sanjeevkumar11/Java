@@ -1,4 +1,4 @@
-package Test;
+
 import java.util.Scanner;
 public class Zero {
 	public static void main (String[] args) {
@@ -20,6 +20,7 @@ public class Zero {
 		for(int i=0;i<n;i++) {
 			System.out.println(arr[i]);
 		}
+		sc.close();
 	}
 
 }

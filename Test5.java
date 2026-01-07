@@ -1,4 +1,4 @@
-package Test;
+
 import java.util.Scanner;
 public class Test5 {
 	public static void main (String[] args) {
@@ -22,6 +22,7 @@ public class Test5 {
 		else {
 			System.out.println("Array is not sorted");
 		}
+		sc.close();
 		
 	}
 }

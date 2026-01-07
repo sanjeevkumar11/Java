@@ -12,6 +12,7 @@ class Twodbs{
         }
         int target = sc.nextInt();
         System.out.println(Arrays.toString(search(arr,target)));
+        sc.close();
     }
 
     static int[] search(int[][] arr, int target){
@@ -28,7 +29,9 @@ class Twodbs{
                 row++;
             }
         }
+        
         return new int[]{-1, -1};
+        
 
     }
 }

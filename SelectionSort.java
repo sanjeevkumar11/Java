@@ -22,5 +22,6 @@ public class SelectionSort {
             arr[i] = temp;
         }
         System.out.println(Arrays.toString(arr));
+        sc.close();
     }
 }

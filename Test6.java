@@ -1,4 +1,3 @@
-package Test;
 
 import java.util.Scanner;
 
@@ -29,5 +28,6 @@ public class Test6 {
 		for(int i=0;i<n1;i++) {
 			System.out.println(temp[i]+" ");
 		}
+		sc.close();
 }
 }

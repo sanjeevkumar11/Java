@@ -1,4 +1,4 @@
-package Test;
+
 
 public class Demo0 {
 	static int fun (int i) {

@@ -1,4 +1,4 @@
-package Test;
+
 import java.util.Scanner;
 public class Equilibrium {
 	public static void main (String[] args) {
@@ -28,5 +28,6 @@ public class Equilibrium {
 		if(!found) {
 			System.out.println("No Equilibrium");
 		}
+		sc.close();
 	}
 }

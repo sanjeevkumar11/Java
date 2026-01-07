@@ -1,4 +1,4 @@
-package Test;
+
 import java.util.Scanner;
 public class Test{
 	public static void main(String[] args) {
@@ -26,10 +26,7 @@ public class Test{
 	}
 	System.out.println("The Maximum number:"+max);
 	System.out.println("The Minimum number:"+min);
-	//Count Even and Odd numbers
-	int Ocount=0,Ecount=0;
-	for(int i=0;i<n;i++) {
-		
-	}
+	
+	sc.close();
 }
 }

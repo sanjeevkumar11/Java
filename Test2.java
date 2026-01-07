@@ -1,6 +1,6 @@
-package Test;
+
 import java.util.Scanner;
-import java.util.Arrays;
+
 public class Test2 {
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -31,5 +31,6 @@ public class Test2 {
 			arr1[i] = arr[i];
 			System.out.print(arr1[i] + " ");
 		}
+		sc.close();
 	}
 }

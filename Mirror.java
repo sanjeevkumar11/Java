@@ -1,4 +1,4 @@
-package Test;
+
 import java.util.Scanner;
 public class Mirror {
 	public static void main(String[] args) {
@@ -21,6 +21,7 @@ public class Mirror {
 		else {
 			System.out.println("No Mirror Inverse");
 		}
+		sc.close();
 	}
 
 }

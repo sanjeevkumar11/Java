@@ -1,4 +1,4 @@
-package Test;
+import java.util.*;
 
 public class Product {
 	public static void main(String[] args) {
@@ -21,5 +21,6 @@ public class Product {
 		for(int i=0;i<n;i++) {
 			System.out.print(arr1[i]+" ");
 		}
+		sc.close();
 	}
 }

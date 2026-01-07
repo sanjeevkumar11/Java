@@ -1,4 +1,4 @@
-package Test;
+
 import java.util.Scanner;
 public class prob0 {
 	public static void main(String[] args) {
@@ -24,5 +24,6 @@ public class prob0 {
 		else {
 			System.out.println(a+" is zero");
 		}
+		sc.close();
 	}
 }

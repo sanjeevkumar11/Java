@@ -1,4 +1,4 @@
-package Test;
+
 import java.util.Scanner;
 public class Rotation {
 	public static void main(String[] args) {
@@ -23,5 +23,6 @@ public class Rotation {
 		}
 		for(int i=0;i<n;i++) {
 			System.out.print(arr[i]+" ");		}
+			sc.close();
 	}
 }

@@ -1,4 +1,3 @@
-package Test;
 
 import java.util.Scanner;
 
@@ -32,5 +31,6 @@ public class Test3 {
 				System.out.println(arr[i]);
 			}
 		}
+		sc.close();
 	}
 }

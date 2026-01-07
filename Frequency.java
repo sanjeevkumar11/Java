@@ -1,4 +1,4 @@
-package Test;
+
 
 import java.util.Scanner;
 
@@ -29,5 +29,6 @@ public class Frequency {
 			}
 			System.out.println(arr[i]+":"+count);
 		}
+		sc.close();
 }
 }

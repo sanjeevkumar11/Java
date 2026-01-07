@@ -1,4 +1,4 @@
-package Test;
+
 import java.util.Scanner;
 public class Negative {
 	public static void main(String[] args) {
@@ -29,5 +29,6 @@ public class Negative {
 		}
 		int res=max-min;
 		System.out.println(res);
+		sc.close();
 	}
 }
